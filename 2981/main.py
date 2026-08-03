@@ -1,4 +1,4 @@
-"""GL"""
+"""สวัสดีชื่อ"""
 name = input()
 surname =input()
 print("Hello", name, surname)

@@ -1,4 +1,4 @@
-"""GL"""
+"""กรอบข้อความ"""
 text = input()
 print("*" * (len(text) + 2))
 print("*" + text + "*")

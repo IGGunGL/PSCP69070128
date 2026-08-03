@@ -1,7 +1,7 @@
-"""GL"""
+"""คำนวณ Elo"""
 RA = int(input())
 RB = int(input())
-Elo = input()
+Elo = input() #เลือกว่าจะดู ของ A หรือ B
 
 EA = 1 / (1 + 10**((RB - RA) / 400))
 EB = 1 / (1 + 10**((RA - RB) / 400))
