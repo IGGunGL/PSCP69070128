@@ -1,4 +1,4 @@
-"""GL"""
+"""สร้างรหัสจากชื่อ นามสกุล และอายุ"""
 name = input()
 surname = input()
 age = int(input())

@@ -1,4 +1,4 @@
-"""GL"""
+"""หาพื้นที่ของสามเหลี่ยม"""
 a = float(input())
 b = float(input())
 c = float(input())

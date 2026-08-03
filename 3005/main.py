@@ -1,6 +1,6 @@
-"""GL"""
+"""คำนวณค่าของผัก"""
 def main():
-    """GL"""
+    """คำนวณค่าของผัก"""
     var1 = (input()).split()
     carrot = int(var1[0])
     cabbage = int(var1[1])
