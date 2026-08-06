@@ -1,13 +1,17 @@
 """อยากเป็นsaitama"""
+import math
 pushup = int(input())
 situp = int(input())
 looksit = int(input())
 run = int(input())
 canpush = int(input())
 cansit = int(input())
-canlook = int(input())
 canrun = int(input())
+canlook = int(input())
 
-while canpush > pushup or cansit > situp or canlook > looksit or canrun > run:
-    
-    break
+pushupsum = pushup/canpush
+situpsum = situp/cansit
+looksitsum = looksit/canlook
+runsum = run/canrun
+
+print(math.ceil(max(pushupsum,situpsum,runsum,looksitsum)))

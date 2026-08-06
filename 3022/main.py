@@ -1,4 +1,4 @@
-"""GL"""
+"""Tem"""
 degree = float(input())
 O = str(input()).upper()
 N = str(input()).upper()

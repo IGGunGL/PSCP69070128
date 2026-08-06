@@ -1,6 +1,6 @@
-"""GL"""
+"""cal"""
 def main():
-    """GL"""
+    """cal"""
     num = int(input())
     symbol = num
     press = 0

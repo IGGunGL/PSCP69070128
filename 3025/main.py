@@ -1,4 +1,4 @@
-"""GL"""
+"""Season"""
 month = int(input())
 day = int(input())
 if (month in [1, 2]) or (month == 12 and day >= 21) or (month == 3 and day <= 20):
